@@ -13,9 +13,12 @@ $ ./gen_comment_block.py --comment hello
 ```
 
 # install
-好きな場所にクローンしてパスを通すだけです。
 ```
 git clone https://github.com/sei-12/gen_comment_block.git
+cd gen_comment_block
+python3 -m venv ./venv
+source ./venv/bin/activate
+pip install pyperclip
+pip install pyinstaller
+pyinstaller --onefile gen_comment_block.py
 ```
-必要なのは`#!/usr/bin/python3`です
-標準ライブラリしか使用していません
