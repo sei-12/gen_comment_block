@@ -20,5 +20,5 @@ python3 -m venv ./venv
 source ./venv/bin/activate
 pip install pyperclip
 pip install pyinstaller
-pyinstaller --onefile gen_comment_block.py
+build.bash
 ```
