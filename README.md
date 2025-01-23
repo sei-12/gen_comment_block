@@ -20,5 +20,6 @@ python3 -m venv ./venv
 source ./venv/bin/activate
 pip install pyperclip
 pip install pyinstaller
-build.bash
+./build.bash
+./dist/gen_comment_block/gen_comment_block -h
 ```
